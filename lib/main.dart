@@ -1,5 +1,4 @@
 import 'package:flower_app/pages/login.dart';
-import 'package:flowerapp/pages/login.dart';
 import 'package:flutter/material.dart';
 void main(){
   runApp(const MyApp());
@@ -9,6 +8,7 @@ class MyWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    debugShowCheckedModeBanner:false,
     return const MaterialApp(
       home: Login(),
     );
